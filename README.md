@@ -1,0 +1,3 @@
+1) Yes, I have worked with APIs: Google, Facebook, Bigdatacloud.
+2) I will analyse structure of Space-X json response -> designed block -> prepare JS classes -> add required methods.
+3) I would improve a calendar, design. I would integrate not only the current year. I would work on notifications about the next launch. I also would add Bootstrap framework and add a moment library for easy managing and would add dates.

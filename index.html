@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Insurance Emporium</title>
+
+    <!-- Fonts -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+          onload="this.rel='stylesheet'" async>
+
+    <link href="/css.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <select id="calendar" class="calendar" style="">
+        <option value="">Show all</option>
+        <option value="0">January</option>
+        <option value="1">February</option>
+        <option value="2">March</option>
+        <option value="3">April </option>
+        <option value="4">May</option>
+        <option value="5">June</option>
+        <option value="6">July </option>
+        <option value="7">August </option>
+        <option value="8">September </option>
+        <option value="9">October</option>
+        <option value="10">November</option>
+        <option value="11">December </option>
+    </select>
+
+    <br>
+    <div class="days_name hide">
+        <div class="day_empty">Mo</div>
+        <div class="day_empty">Tu</div>
+        <div class="day_empty">We</div>
+        <div class="day_empty">Th</div>
+        <div class="day_empty">Fr</div>
+        <div class="day_empty">Sa</div>
+        <div class="day_empty">Su</div>
+    </div>
+    <div id="days" style="width: 270px; margin: 15px">
+
+    </div>
+
+
+    <hr style="clear: both; margin: 10px; height: 1px">
+    <div id="container"></div>
+
+<script defer type="application/javascript" src="/app.js"></script>
+</body>
+
+
+</html>

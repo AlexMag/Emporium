@@ -1,0 +1,74 @@
+body {
+    font-family: Nunito, sans-serif;
+    font-weight: 600;
+    overflow-x: hidden;
+    background: #FFFFFF;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    margin: 15px;
+
+    float: left;
+    width: 320px;
+    height: 300px;
+}
+
+.cardWillLaunch {
+    background: #dcecff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+    margin: 15px;
+
+    float: left;
+    width: 320px;
+    height: 300px;
+}
+
+.status{
+    float: right;
+}
+
+.muted{
+    color: #a9a9a9;
+}
+
+.calendar{
+    margin-left: 20px;
+}
+
+.day{
+    float: left;
+    margin: 3px;
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #ee7bbe;
+}
+
+.day_empty{
+    color: #e2e2e2;
+    float: left;
+    margin: 3px;
+    width: 30px;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+
+}
+
+.day_mark{
+    background: #fff99c;
+}
+
+.days_name{
+    width: 270px; margin-left: 15px;
+}
+
+.hide{
+    display: none;
+}
